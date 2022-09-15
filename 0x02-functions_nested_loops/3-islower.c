@@ -4,8 +4,9 @@
  * _islower - shows 1 if input is a lowercase character.
  * shows 0 for others cases
  *
- * @c: ASCII character
- * return: 1 for lowercase character. 0 for the rest.
+ * @c: the character in ASCII code
+ * 
+ * Return: 1 for lowercase character. 0 for the rest.
  */
 int _islower(int c)
 {
