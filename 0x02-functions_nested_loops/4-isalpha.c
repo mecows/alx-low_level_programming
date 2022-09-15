@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _isalpha - shows 1 for letters, 0 for others.
+ * test_isalpha - shows 1 for letters, 0 for others.
  *
  * @c: ASCII character
  *
  * return: 1 for letters, 0 for others.
  */
-int _isalpha(int c)
+int test_isalpha(int c)
 {
 	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
 	{
