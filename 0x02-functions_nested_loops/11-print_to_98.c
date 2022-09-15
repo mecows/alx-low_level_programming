@@ -8,7 +8,7 @@
  *
  * Return: no return.
  */
-void print_to_98(void)
+int print_to_98(int n)
 {
 	if (n > 98)
 	{
@@ -25,4 +25,5 @@ void print_to_98(void)
 		}
 	}
 	else printf("%d, ", n);
+	return (0);
 }
