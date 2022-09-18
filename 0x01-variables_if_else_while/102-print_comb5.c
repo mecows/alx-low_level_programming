@@ -10,7 +10,7 @@
 int main(void)
 {
 	int i, j, k, l;
-
+	
 	i = j = k = 48; l = 49;
 	while  ((i < 58))
 	{
@@ -30,7 +30,8 @@ int main(void)
 				}
 				else if (j == 56)
 				{
-					j++; k = i + 1; l = 48;															}
+					j++; k = i + 1; l = 48;
+				}
 				else if (j == 57)
 				{
 					j = 48; l = 49; k = ++i;
